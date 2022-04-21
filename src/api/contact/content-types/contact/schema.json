@@ -1,0 +1,76 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Контакты",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contacts": {
+      "type": "string"
+    },
+    "filial1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "filial2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "filial3": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "contact1": {
+      "type": "biginteger"
+    },
+    "contact2": {
+      "type": "biginteger"
+    },
+    "contact3": {
+      "type": "biginteger"
+    },
+    "social1": {
+      "type": "string"
+    },
+    "social2": {
+      "type": "string"
+    },
+    "social3": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "email1": {
+      "type": "email"
+    }
+  }
+}

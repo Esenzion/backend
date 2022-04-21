@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_work_time_work_times",
+  "info": {
+    "displayName": "Work time",
+    "icon": "clock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "opened": {
+      "type": "string"
+    },
+    "closed": {
+      "type": "string"
+    }
+  }
+}

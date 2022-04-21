@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recipes",
+  "info": {
+    "singularName": "recipe",
+    "pluralName": "recipes",
+    "displayName": "Recipe"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "first-dishes",
+        "second-dishes",
+        "drinks",
+        "salads",
+        "desserts"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "describe": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "alias": {
+      "type": "string"
+    }
+  }
+}

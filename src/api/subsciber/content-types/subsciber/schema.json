@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subscibers",
+  "info": {
+    "singularName": "subsciber",
+    "pluralName": "subscibers",
+    "displayName": "Подписки"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    }
+  }
+}
